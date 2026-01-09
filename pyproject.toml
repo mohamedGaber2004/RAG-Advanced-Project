@@ -1,0 +1,29 @@
+[project]
+name = "rag-advanced-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docx2txt",
+    "fastapi",
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-groq",
+    "langchain-huggingface",
+    "langchain-ollama>=1.0.1",
+    "langchain-pinecone",
+    "langchain-tavily",
+    "langchain-text-splitters",
+    "langgraph",
+    "pinecone",
+    "pypdf",
+    "python-dotenv",
+    "requests",
+    "sentence-transformers",
+    "streamlit",
+    "unstructured",
+    "uuid",
+    "uvicorn",
+]
